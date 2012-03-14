@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+	xmlns:android="http://schemas.android.com/apk/res/android">
+
+	<item 
+		android:title="@string/menu_about" 
+		android:id="@+id/menuViewAbout"></item>
+
+	<item 
+		android:title="@string/menu_setting"
+		android:id="@+id/menuViewSetting"></item>
+		
+	<item 
+		android:title="@string/menu_change_schedule"
+		android:id="@+id/menuViewChangeDate"></item>
+		
+		
+	<item 
+		android:title="@string/menu_back_home"
+		android:id="@+id/menuViewBackHome"></item>
+		
+</menu>

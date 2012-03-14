@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="fill_parent"
+	android:layout_height="fill_parent"
+	android:padding="6dip"
+	android:orientation="vertical">
+	
+	<TextView
+    	android:id="@+id/row_stops_three_next_content" 
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"/>
+
+ 	<LinearLayout
+		xmlns:android="http://schemas.android.com/apk/res/android"
+		android:layout_width="fill_parent"
+		android:layout_height="fill_parent"
+		android:orientation="horizontal">
+  		
+  		<TextView
+	    	android:id="@+id/row_stops_three_next_Time1" 
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:padding="6dip"/>
+	        
+	    <TextView
+	    	android:id="@+id/row_stops_three_next_Time2" 
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:padding="6dip"/>
+	        
+	    <TextView
+	    	android:id="@+id/row_stops_three_next_Time3" 
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:padding="6dip"/>
+	        
+	   <TextView
+	    	android:id="@+id/row_stops_three_next_RestTime" 
+	        android:layout_width="fill_parent"
+	        android:layout_height="wrap_content"
+	        android:padding="6dip"
+	        android:gravity="right"/>
+  		
+  	</LinearLayout>
+  	
+  
+</LinearLayout>

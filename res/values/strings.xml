@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+	<!--  General -->
+    <string name="app_name">Bus Droid</string>
+    <string name="favorites">Favorites</string>
+    <string name="routes">Routes</string>
+    <string name="stops">Stops</string>
+    <string name="map">Map</string>
+    
+    <string-array name="schedule">
+    	<item></item>
+        <item>Schedule of monday to thursday</item>
+        <item>Schedule of Friday</item>
+        <item>Schedule of Saterday</item>
+        <item>Schedule of Sunday</item>
+    </string-array>
+    
+    <string name="holiday_message">(Holiday)</string>
+    
+    <!-- Splash scree -->
+    <string name="splash_checking_db">Checking the database</string>
+    <string name="splash_sorry_db_dont_exist">Sorry, the database don\'t exist.  You need a internet connection to download it.</string>
+    <string name="splash_downloading">Downloading the database..., this could take a couple of minutes.</string>
+    <string name="splash_checking_new_version">Checking if there is a new version of the database</string>
+    <string name="splash_updating">Updating the database..., this could take a couple of minutes.</string>
+    
+    <!-- About -->
+    <string name="about_title">About</string>
+    <string name="about_content">Version 0.1\n
+    Par Dalto (Simon Perreault)\n
+    Chromium is an open-source browser project that aims to build a safer, faster, and more stable way for all Internet users to experience the web. This site contains design documents, architecture overviews, testing information, and more to help you learn to build and work with the Chromium source code.</string>
+    <string name="about_button_text">Route %s</string>
+    
+    <!-- Favorites -->
+    
+    <!-- Routes -->
+    <string name="route">Route %s</string>
+    
+    <!-- Stops -->
+    <string name="stop_not_found_title">Not found</string>
+    <string name="stop_not_found_message">Sorry, but the stop you have request could not be found.</string>
+    
+    
+    <!-- Map -->
+    
+    <!--  Menu -->
+    <string name="menu_setting">Setting</string>
+    <string name="menu_about">About</string>
+    <string name="menu_change_schedule">Change schedule</string>
+    <string name="menu_back_home">Back home</string>
+    
+    <string name="menu_schedule_title">Change schedule</string>
+
+    
+    
+    <!--  Setting -->
+    <string-array name="opening_tab">
+        <item>Favorites</item>
+        <item>Routes</item>
+        <item>Stops</item>
+        <item>Map</item>
+    </string-array>
+    <string-array name="opening_tab_value">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+    </string-array>
+    <string name="opening_tab_title">Opening tab</string>
+    <string name="opening_tab_summary">The first tab you want to see when you open this apps</string>
+    
+    <string-array name="sort_favorite">
+        <item>By Routes</item>
+        <item>By Stops</item>
+    </string-array>
+    <string-array name="sort_favorite_value">
+        <item>0</item>
+        <item>1</item>
+    </string-array>
+    <string name="sort_favorite_title">Sort favorite by</string>
+    <string name="sort_favorite_summary">Chose the way you want to display our favorites</string>
+</resources>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ListPreference android:key="opening_tab" android:summary="@string/opening_tab_summary" android:title="@string/opening_tab_title" android:entries="@array/opening_tab" android:entryValues="@array/opening_tab_value"></ListPreference>
+    <ListPreference android:key="sort_favorite" android:entries="@array/sort_favorite" android:summary="@string/sort_favorite_summary" android:title="@string/sort_favorite_title" android:entryValues="@array/sort_favorite_value"></ListPreference>
+    
+</PreferenceScreen>
